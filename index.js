@@ -1,11 +1,11 @@
 
 const hands = ["rock", "paper", "scissors"];
 
-module.exports = handsy; 
+
 let handsy = function handsy(){
   return "rock, paper, scissors";
 }
-
+module.exports = handsy; 
 let getHand = function getHand() {
     return hands[parseInt(Math.random() * 10) % 3];
   }

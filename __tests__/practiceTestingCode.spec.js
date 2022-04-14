@@ -1,6 +1,8 @@
 // import {player} from "../index"; //new way//
+
 const player = require("../index"); 
 //old way//
+
 const {hands} = require("../index");
 // when hands is imported its imported as an object wrapping {} around hands makes it come in as an array instead of an array wrapped in an object//
 const {getHand} = require("../index");

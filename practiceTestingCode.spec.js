@@ -17,46 +17,46 @@ describe("Player names", () => {
   });
 });
 
-// describe("Find a specific player", () =>{
-//     test("Is there a player named dan", () => {
-//         let nameDan = player[3].name;
-//         console.log(player.name)
-//       expect(nameDan).toBe("dan");
-//     });
-//   });
+describe("Find a specific player", () =>{
+    test("Is there a player named dan", () => {
+        let nameDan = player[3].name;
+        console.log(player.name)
+      expect(nameDan).toBe("dan");
+    });
+  });
 
 // //toHaveLength//
-// describe("Hands object length", () => {
-//     test("How long is the hands array", () => {
-//     let handArr = hands;
-//       expect(handArr).not.toHaveLength(5);
-//     });
-//   });
+describe("Hands object length", () => {
+    test("How long is the hands array", () => {
+    let handArr = hands;
+      expect(handArr).not.toHaveLength(5);
+    });
+  });
 
 //'toBeTruthy()'//
-// describe("Is it true that", () => {
-//     test("is it true that hand array contains paper", () => {
-//     let handsArr = hands;
-//     let paperIndex = "paper";
-//       expect(handsArr = 'paper').toBeTruthy();
-//     });
-//   });
+describe("Is it true that", () => {
+    test("is it true that hand array contains paper", () => {
+    let handsArr = hands;
+    let paperIndex = "paper";
+      expect(handsArr = 'paper').toBeTruthy();
+    });
+  });
 
 //'toBeTruthy()'//
-// describe("Is it true that this round is null", () => {
-//     test("is it true that playround comes back null if player1 hand = player 2 hand", () => {
-//       expect(playRound).toBeTruthy();
-//     });
-//   });
+describe("Is it true that this round is null", () => {
+    test("is it true that playround comes back null if player1 hand = player 2 hand", () => {
+      expect(playRound).toBeTruthy();
+    });
+  });
 
 //'toHaveBeenCalled()'//
-// describe("Has playRound been called", () => {
-//     test("has play round been called", () => {
-//     let playGame1 = playGame;
-//     let playRound1 = playRound;
-//       expect(playGame1(playRound)).toHaveBeenCalled();
-//     });
-//   });
+describe("Has playRound been called", () => {
+    test("has play round been called", () => {
+    let playGame1 = playGame;
+    let playRound1 = playRound;
+      expect(playGame1(playRound)).toHaveBeenCalled();
+    });
+  });
 
 //tohavebeencalled//
 // function drinkAll(callback, flavour) {
@@ -70,23 +70,23 @@ describe("Player names", () => {
 //       const drink = jest.fn();
 //       drinkAll(drink, 'lemon');
 //       expect(drink).toHaveBeenCalled();
-//     });
+    });
   
-//     test('does not drink something octopus-flavoured', () => {
-//       const drink = jest.fn();
-//       drinkAll(drink, 'octopus');
-//       expect(drink).not.toHaveBeenCalled();
-//     });
-//   });
+    test('does not drink something octopus-flavoured', () => {
+      const drink = jest.fn();
+      drinkAll(drink, 'octopus');
+      expect(drink).not.toHaveBeenCalled();
+    });
+  });
 
 
 //tohavereturned//
-// test('drinks returns', () => {
-//     const drink = jest.fn(() => true);
+test('drinks returns', () => {
+    const drink = jest.fn(() => true);
   
-//     drink();
+    drink();
   
-//     expect(drink).toHaveReturned();
-//   });
+    expect(drink).toHaveReturned();
+  });
 
 
